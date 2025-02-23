@@ -12,7 +12,6 @@ print(conjunto3) # {'Ramon', 'Asturias', frozenset({'dato1', 'dato2', 'dato3'})}
 
 #Teoria de conjuntos
 #Los conjuntos son colecciones de elementos desordenados, sin elementos duplicados.
-#Los conjuntos son mutables, lo que significa que pueden cambiar su contenido una vez creados.
 #Los conjuntos no tienen un orden, por lo que no se puede acceder a los elementos mediante índices.
 #Los elementos de un conjunto deben ser inmutables.
 #Los conjuntos no pueden tener elementos duplicados.
@@ -38,7 +37,8 @@ print(resultado4) # True
 print(resultado5) # False
 print(resultado6) # True
 
-#Verificar si hay un numero en comun entre dos conjuntos
+
+#Verificar si hay un numero en comun entre dos conjuntos si hay un elemento en comun devuelve False
 resultado7 = conjunto4.isdisjoint(conjunto5)
 print(resultado7) # False
 
