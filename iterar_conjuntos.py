@@ -13,6 +13,15 @@ diccionario = {
 for clave, valor in diccionario.items(): #items() devuelve una lista con tuplas de clave y valor
     print(clave, valor)
     
+# Crear otro diccionario e iterar sobre él
+nuevo_diccionario = {
+    "ciudad": "Madrid",
+    "pais": "España",
+    "poblacion": 3200000
+}
+for clave, valor in nuevo_diccionario.items():
+    print(clave, valor)
+    
 #iterar sobre una tupla
 tupla = (1,2,3,4,5)
 for elemento in tupla:
